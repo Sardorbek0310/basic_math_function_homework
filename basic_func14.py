@@ -1,3 +1,6 @@
+a=11
+b=2
+from math import floor
 def main(a, b):
     '''find the floor division of a and b and return it.
     
@@ -8,4 +11,5 @@ def main(a, b):
     Returns:
         int: the result.
     '''
-    return 
+    return floor(a/b)
+print(main(a, b))
